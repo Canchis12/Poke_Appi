@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #3b4371, #f3904f);
+    min-height: 100vh;
+}
+
+/* Caja Glass */
+.glass-box {
+    width: 380px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    color: white;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #ffffff;
+}
+
+/* Inputs */
+.input-style {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 12px;
+    transition: all 0.3s ease;
+}
+.input-style:focus {
+    border-color: #00d2ff;
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+}
+
+/* Botones */
+.btn-search {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    font-weight: 600;
+    color: white;
+    border-radius: 12px;
+    padding: 12px;
+    transition: 0.3s;
+}
+.btn-search:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(90deg, #5310a8, #1f63d8);
+}
+
+.btn-fav {
+    background: linear-gradient(90deg, #ff0844, #ffb199);
+    font-weight: 600;
+    color: white;
+    border-radius: 12px;
+    padding: 12px;
+    transition: 0.3s;
+}
+.btn-fav:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(90deg, #e70740, #ff9a8b);
+}
+
+/* Resultado Pokémon */
+.result-box img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+/* Favoritos */
+.subtitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.fav-item {
+    width: 150px;
+    background: rgba(255, 255, 255, 0.20);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    backdrop-filter: blur(8px);
+    text-align: center;
+    transition: 0.3s;
+}
+.fav-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.fav-item img {
+    width: 80px;
+}
+
+/* Botón eliminar */
+.btn-delete {
+    background: #ff4b4b;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: 0.3s;
+}
+.btn-delete:hover {
+    background: #d93b3b;
+}
